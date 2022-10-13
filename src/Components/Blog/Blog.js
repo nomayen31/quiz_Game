@@ -225,7 +225,7 @@ const Blog = () => {
                </button>
                <div x-show="openFaq6" className="faq-content pl-[62px]">
                   <p className="text-base text-body-color leading-relaxed py-3">
-                  The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+                  The useRef Hook allows you to persist values between renders.. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
                   </p>
                </div>
             </div>
