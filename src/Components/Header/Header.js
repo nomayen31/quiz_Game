@@ -1,7 +1,8 @@
 
-
 import React, { useState } from 'react';
 // import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
+
+// import { AiFillEye } from "react-icons/ai";
 
 import './Header.css'
 import { Link } from 'react-router-dom';
@@ -31,7 +32,6 @@ const Header = () => {
                 <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/'>Home</Link>
                 <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/topics'>Topics</Link>
             
-                <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/statistics'>Statistics</Link>
                 <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/blog'>Blog</Link>   
             </div>
 
