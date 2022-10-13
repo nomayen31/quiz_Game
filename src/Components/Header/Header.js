@@ -30,8 +30,8 @@ const Header = () => {
 
             <div className=" flex  flex-col md:flex-row gap-6  bg-orange-300 md:bg-transparent p-10 md:p-0">
                 <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/'>Home</Link>
-                <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/topics'>Topics</Link>
-            
+                <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/Statistics'>statistics</Link>
+              
                 <Link className='font-bold hover:text-blue-500 text-orange-400 border border-white bg-white md:bg-transparent md:border-0  rounded-lg text-center ' to='/blog'>Blog</Link>   
             </div>
 
